@@ -2,7 +2,7 @@ require 'date'
 require 'csv'
 
 class LikesReportJob < ApplicationJob
-  queue_as :default
+  # queue_as :default
 
   FILE = "./test.csv"
   HEADERS = [:date, :likes]

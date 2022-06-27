@@ -33,3 +33,5 @@ gem "rspec-rails", group: [:development, :test]
 gem "shoulda-matchers", group: :test
 
 gem "sidekiq"
+
+gem "timecop"
